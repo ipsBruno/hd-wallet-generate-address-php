@@ -2,6 +2,7 @@
 
 require 'vendor/autoload.php';
 
+//composer require bitwasp/bitcoin
 use BitWasp\Bitcoin\Address\AddressCreator;
 use BitWasp\Bitcoin\Key\Factory\HierarchicalKeyFactory;
 use BitWasp\Bitcoin\Address\PayToPubKeyHashAddress;
